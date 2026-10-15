@@ -1,0 +1,61 @@
+{
+  "archive": "qiskit-iris-qnn.zip",
+  "archive_sha256": "c7c1c443ce3a1d895f468c80423ab4606bee9df7c174b074c32c35b3230b290c",
+  "notebooks": [
+    {
+      "path": "notebooks/01_simulation/01_qnn_statevectorsampler_v1.ipynb",
+      "original_sha256": "2b412cb2618b85c7c1c9f88c05d63259cb6d45ef4186645d76ab12d3bb43f986",
+      "original_cells": 41
+    },
+    {
+      "path": "notebooks/01_simulation/02_qnn_statevectorsampler_v2.ipynb",
+      "original_sha256": "960085409d7c989faaaa6a8cfcd09e03631a3e6e328b906c2f57184bb62b3e56",
+      "original_cells": 41
+    },
+    {
+      "path": "notebooks/01_simulation/03_qnn_aer_v1.ipynb",
+      "original_sha256": "3908805b18d487fd764656d7a3fab30cb09cc48a60b723a1433271f29d8da05b",
+      "original_cells": 33
+    },
+    {
+      "path": "notebooks/01_simulation/04_qnn_aer_v2.ipynb",
+      "original_sha256": "31ef959a1a8b640a5cdf16fef7a3f03c543e19e442cd0968364e0cce61fbd9d9",
+      "original_cells": 38
+    },
+    {
+      "path": "notebooks/02_ibm_hardware/05_qnn_ibm_train_test.ipynb",
+      "original_sha256": "735e21e4cbdc824f0351169427433f5f0b59b059d46cfe098da746161957b894",
+      "original_cells": 56
+    },
+    {
+      "path": "notebooks/02_ibm_hardware/06_qnn_aer_train_ibm_test.ipynb",
+      "original_sha256": "4012b320364d1cf0db39046b2ac5c2e64e2a42f928ccfba8168d80b37f1a33b2",
+      "original_cells": 45
+    },
+    {
+      "path": "notebooks/02_ibm_hardware/07_qnn_aer_train_ibm_test_tuning.ipynb",
+      "original_sha256": "ea8eb48662f48a90bf7a029b947c8b80c28de08bfafbdd3322796be5745c9e6e",
+      "original_cells": 21
+    },
+    {
+      "path": "notebooks/03_finetuning/08_finetuning_v2.ipynb",
+      "original_sha256": "56e9d8bb280323886aba2d95b213957afb3b6aa9c8761d1e79f4bac492f8d27e",
+      "original_cells": 31
+    },
+    {
+      "path": "notebooks/03_finetuning/09_finetuning_v3.ipynb",
+      "original_sha256": "2aa73960a33df66c3ae6b4862e92cd628fb7ea4b2430c154c7b2d3014c13c7bb",
+      "original_cells": 29
+    },
+    {
+      "path": "notebooks/04_vqc/10_vqc_aer.ipynb",
+      "original_sha256": "d949c1bb100dc38e40044db2489b3ff9fb10ed9f2bb1bb781d745c0ae592c20a",
+      "original_cells": 23
+    },
+    {
+      "path": "notebooks/04_vqc/11_vqc_ibm.ipynb",
+      "original_sha256": "47d44fa2d6a509a3640758a344a4cd6bf8383747782bc4a407238a1745b26345",
+      "original_cells": 37
+    }
+  ]
+}
