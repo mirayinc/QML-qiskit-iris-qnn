@@ -1,0 +1,21 @@
+# Local environments and notebook scratch files
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv*/
+venv/
+quantumenv/
+.DS_Store
+
+# Credentials and local account configuration
+.env
+.env.*
+!.env.example
+.qiskit/
+qiskit-ibm.json
+qiskit-ibm-runtime.json
+*credentials*.json
+
+# Local experiment exports
+artifacts/
+*.log
