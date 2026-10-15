@@ -48,6 +48,7 @@ cd qiskit-iris-qnn
 python -m venv .venv
 source .venv/bin/activate
 # Windows PowerShell: .venv\Scripts\Activate.ps1
+python -m pip install --upgrade 'pip>=26.2'
 python -m pip install -r requirements.txt
 python scripts/validate_archive.py
 python scripts/smoke_simulation.py
@@ -57,3 +58,7 @@ jupyter notebook
 Notebook 07 requires a **separate** environment using `requirements-qiskit2.txt`. Legacy hardware notebooks are not certified to run unchanged against today's IBM service. No new hardware jobs were submitted during publication. Review [setup and credential handling](docs/KURULUM.md) before executing hardware cells: jobs use your own account and may consume quota or incur account usage.
 
 Publication changes add reading notes, accurate documentation, privacy cleanup and dependency declarations while preserving experimental code. Saved outputs are historical, not the output of the smoke check. The MIT license covers repository code; Iris provenance is documented separately in [`data/README.md`](data/README.md).
+
+## Security update
+
+The default installation uses **Qiskit 1.4.6**, replacing vulnerable 1.2.4. Saved notebook outputs retain their historical versions. CI installs and audits both Qiskit environments separately with `pip-audit`, with no vulnerability exclusions. See [security notes](SECURITY.md).

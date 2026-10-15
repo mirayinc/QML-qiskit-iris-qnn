@@ -1,5 +1,14 @@
 # Değişiklik kaydı
 
+## 2026-10-15 — Qiskit güvenlik yaması
+
+- Varsayılan Qiskit sürümü 1.2.4'ten **1.4.6**'ya yükseltildi; CVE-2025-2000 ve CVE-2025-1403 bildirimlerindeki etkilenen sürüm aralığından çıkıldı.
+- Kurulumda `pip>=26.2` güncellemesi eklendi.
+- `pip-audit` ve iki ortamı ayrı kuran CI matrisi eklendi; bilinen açık bulunduğunda kontrol başarısız olur.
+- GitHub Actions referansları tam SHA'ya sabitlendi, checkout kimlik bilgisinin saklanması kapatıldı.
+- 07 notebook'unun yerel Aer kodu için Qiskit 2 uyumluluk kontrolü ve SECURITY.md eklendi.
+- Geçmiş notebook kodları ve deney çıktıları değiştirilmedi.
+
 ## 2026-10-15 — Public portföy yayınına hazırlık
 
 Sağlanan `qiskit-iris-qnn.zip` temel alındı. Geçmişte yapılmış çalışmaları temsil etmek için eski tarihlere commit eklenmedi; yayın commitleri içerik grupları halinde oluşturuldu.

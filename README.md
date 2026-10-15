@@ -65,6 +65,7 @@ cd qiskit-iris-qnn
 python -m venv .venv
 source .venv/bin/activate
 # Windows PowerShell: .venv\Scripts\Activate.ps1
+python -m pip install --upgrade 'pip>=26.2'
 python -m pip install -r requirements.txt
 python scripts/validate_archive.py
 python scripts/smoke_simulation.py
@@ -72,6 +73,10 @@ jupyter notebook
 ```
 
 Python 3.12 ile yerel kontroller yapılmıştır. 07 için ayrı Qiskit 2 ortamı gerekir. Donanım notebook’ları eski API’ler ve etkileşimli denemeler içerir; tamamının güncel IBM hizmetinde baştan sona çalışacağı garanti edilmez. Donanım hücreleri kendi hesabınız üzerinden gerçek işler gönderir ve kota/kullanım tüketebilir. **[Kurulum, hesap güvenliği ve sürümler](docs/KURULUM.md)**.
+
+## Güvenlik güncellemesi
+
+Güncel kurulum **Qiskit 1.4.6** kullanır; notebook çıktılarındaki 1.2.4 geçmiş deney kaydıdır. Qiskit 1 ve Qiskit 2 ortamları her commit'te ayrı kurulup `pip-audit` ile taranır. **[Güvenlik notları ve yerel tarama](SECURITY.md)**.
 
 ## Bu repoda gösterilen beceriler
 

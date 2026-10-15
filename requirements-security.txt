@@ -1,0 +1,2 @@
+# Optional local and CI dependency vulnerability scanner.
+pip-audit==2.10.1

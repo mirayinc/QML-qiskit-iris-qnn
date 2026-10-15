@@ -1,6 +1,7 @@
-# Historical Qiskit 1 environment; see docs/KURULUM.md for limitations.
+# Patched Qiskit 1 environment; saved outputs retain their original versions.
+# Qiskit 1.4.6 replaces vulnerable 1.2.4; see SECURITY.md.
 # QML 0.8.4 is printed in notebooks 10 and 11 (not an assumed version).
-qiskit==1.2.4
+qiskit==1.4.6
 qiskit-aer==0.16.0
 qiskit-ibm-runtime==0.29.0
 qiskit-machine-learning==0.8.4
